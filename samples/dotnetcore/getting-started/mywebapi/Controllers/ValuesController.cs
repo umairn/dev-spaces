@@ -20,7 +20,7 @@ namespace mywebapi.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "mywebapi now says something new";
+            return "Your application description page.";
         }
 
         // POST api/values
